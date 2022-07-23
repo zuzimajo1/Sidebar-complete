@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.navigations {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(237, 242, 245);
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.navigations button {
+  margin-left: 2rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: transparent;
+  background-color: transparent;
+}
+
+.menu-icon {
+  font-size: 35px;
+  color: rgb(50, 168, 241);
+  transition: all ease-in-out 800ms;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+.menu-icon2 {
+  font-size: 50px;
+  color: rgb(50, 168, 241);
+  transition: all ease-in-out 800ms;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+}
+
+/*Sidebar*/
+
+.sidebar-hide {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 100%;
+  background-color: white;
+  left: -500px;
+  top: 0;
+  transition: all ease-in-out 500ms;
+}
+
+.sidebar-active {
+  left: 0;
+  transition: all ease-in-out 500ms;
+}
+
+.sidebar-header {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.sidebar-header img {
+  width: 200px;
+  height: 100%;
+  margin-left: 1.5rem;
+}
+
+.closeicon {
+  font-size: 25px;
+  color: rgb(172, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  background-color: transparent;
+  border: transparent;
+  cursor: pointer;
+}
+
+.closeicon:hover {
+  color: rgb(247, 7, 7);
+}
+
+.sidebar-links {
+  height: 400px;
+  margin-top: 0.7rem;
+}
+
+.sidebar-links ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-class {
+  padding: 1rem 3rem 1rem 1.7rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  color: rgb(85, 92, 95);
+}
+
+.nav-class:hover {
+  background-color: rgb(234, 240, 247);
+  transition: all 750ms;
+}
+
+.nav-class span {
+  font-size: 20px;
+  margin-left: 1rem;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.sidebar-link-router {
+  text-decoration: none;
+}
+
+.sidebar-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.sidebar-title {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(67, 70, 71);
+  letter-spacing: 1px;
+}
+
+.sidebar-socials a {
+  font-size: 25px;
+  padding: 1rem 0.4rem;
+  color: rgb(61, 167, 233);
+}
